@@ -1,6 +1,6 @@
 # EldenRingRuneFarm
 
-1. 运行“神躯化剑刷魂.exe”
+1. 运行“神躯化剑刷魂.exe”或"EldenRingRuneFarm.exe"
 
 2. 传送到“通往王朝的崖上道路”赐福点
 
