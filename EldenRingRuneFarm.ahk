@@ -15,9 +15,9 @@ F1:: {
         sendKey("G")
         Sleep(1000)
         sendKey("F")
-        Sleep(200)
+        Sleep(400) ; default -> 200
         sendKey("E")
-        Sleep(200)
+        Sleep(400) ; default -> 200
         sendKey("E")
         ; 界面加载读条时间
         Sleep(8000)
