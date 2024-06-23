@@ -20,25 +20,24 @@ F1:: {
         Sleep(400) ; default -> 200
         sendKey("E")
         ; 界面加载读条时间
-        Sleep(8000)
+        Sleep(6500)
         ; 向前走
         sendKey("W", 5500)
         Sleep(intervalDelay)
         ; 向左走
-        sendKey("A", 1600)
+        sendKey("A", 2000)
         Sleep(intervalDelay)
         ; 向左前45度调整位置
         Send("{W Down}")
-        Send("{A Down}")
-        Sleep(100)
+        Send("{D Down}")
+        Sleep(200)
         Send("{W Up}")
-        Send("{A Up}")
-        Sleep(intervalDelay)
+        Send("{D Up}")
         ; 释放战技
         Send("{Ctrl Down}")
         Sleep(intervalDelay)
         Send("{Ctrl Up}")
-        Sleep(7000)
+        Sleep(6500)
     }
 }
 
